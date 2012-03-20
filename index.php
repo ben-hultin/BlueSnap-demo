@@ -1,0 +1,1 @@
+<?php header('location: http://184.106.138.196/bsnp-dev/magento/'); ?>

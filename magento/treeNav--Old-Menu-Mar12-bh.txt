@@ -1,0 +1,39 @@
+<!--
+		<a href="<?php echo $DOMAIN; ?>" class="parent">Magento Integration Dev Guide</a><br />
+		<a href="#" class="parent">Product Catalog Integration</a><br />
+			<a href="#" class="child">Plimus Contract ID (SKU)</a><br />
+			<a href="<?php echo $DOMAIN; ?>xml-api-GetSKUPrices/" class="child">Get Plimus SKU Price</a><br />
+			
+		<a href="#" class="parent">Shopping Cart Integration</a><br />
+			<a href="<?php echo $DOMAIN; ?>xml-api-ConvertCurrency/" class="child">Currency Conversion</a><br />
+			
+		<a href="#" class="parent">Customer Data Integration</a><br />
+			<a href="<?php echo $DOMAIN; ?>xml-api-CreateShoppers/" class="child">Plimus Shopper ID</a><br />
+			<a href="#" class="child">Customer Contact Data</a><br />
+			<a href="#" class="child">Customer Order Histry</a><br />
+			
+		<a href="#" class="parent">Payment Data Integration</a><br />
+			<a href="#" class="child">Customer Pay Preferences</a><br />
+			<a href="#" class="child">Customer Pay History</a><br />
+			
+		<a href="#" class="parent">Payment Processing</a><br />
+			<a href="<?php echo $DOMAIN; ?>BuyNow-Template" class="child">Payment Processing</a><br />
+			<a href="#" class="child">Returning Customer Use Cases</a><br />
+			<a href="#" class="child">Subscription/Recurring Billing</a><br />
+			<a href="#" class="child">Payment Types</a><br />
+			-->
+			
+		<a href="#" class="parent">Order Data Integration</a><br />
+			<a href="#" class="child">IPN Messaging</a><br />
+			<a href="#" class="child">Order History</a><br />
+			
+		<a href="#" class="parent">Order Fulfillment</a><br />
+			<a href="#" class="child">SaaS & Cloud Services</a><br />
+			<a href="#" class="child">Entertainment</a><br />
+			<a href="#" class="child">Digital Downloads</a><br />
+			<a href="#" class="child">License Key Management</a><br />
+			
+			<a href="#" class="parent">Exception Handling</a><br />
+			<a href="#" class="child">Order Held In Review</a><br />
+			<a href="#" class="child">Bank or Processor Decline</a><br />
+			<a href="#" class="child">Retrys & Resending</a><br />

@@ -1,0 +1,22 @@
+.form_container
+{
+	padding: 10px;
+	margin: 10px;
+	width: 425px;
+	border: 1px solid grey;
+}
+
+.currency_select
+{
+	margin: 5px 30px 20px 5px;
+}
+
+.input_fields
+{
+	margin: 10px 30px;
+}
+
+#convert_currency
+{
+	margin: 10px 30px;
+}

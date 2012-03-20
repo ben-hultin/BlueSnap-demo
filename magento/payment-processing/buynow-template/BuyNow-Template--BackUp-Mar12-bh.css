@@ -1,0 +1,93 @@
+/*#field_container, #action_container
+{
+	padding: 10px;
+	width: 425px;
+	float: left;
+}
+
+
+{
+	padding: 10px; 
+	width: 425px;
+	float: left;
+
+}
+*/
+
+#company_field_group, #billing_field_group, #action_group, #credit_field_group, #contract_id_group, #buynow_submit_group, #save_group, .group
+{
+	margin: 10px;
+	padding: 10px;
+
+	width: 90%;
+	border: solid 1px grey;
+}
+
+.card_type_group
+{
+	float: right;
+	margin: 0px 10px;
+}
+
+.clear
+{
+	clear: both;
+}
+
+
+.action_button
+{
+	float: right;
+}
+
+label
+{
+
+}
+
+h3
+{
+	width: 250px;
+}
+
+.credit_card_title
+{
+	width: 50%;
+	float: left;
+}
+
+.field_input
+{
+	margin: 2px 10px;
+
+	vertical-align: middle; 
+}
+
+.source_code_block
+{
+	font-size: 1.2em;
+	color: blue;
+	border: 1px solid grey;
+	background-color: lightGrey;
+	padding: 0px 15px;
+    width: 1050px;
+}
+
+.table_form
+{
+	float: right;
+	
+}
+
+.save_input
+{
+	height: 30px;
+	float: left;
+}
+
+.reset_input
+{
+	height: 30px;
+	float: right;
+}
+

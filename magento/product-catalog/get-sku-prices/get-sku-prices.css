@@ -1,0 +1,38 @@
+.source_code_block
+{
+	font-size: 1.2em;
+	color: blue;
+	border: 1px solid grey;
+	background-color: lightGrey;
+	padding: 0px 15px;
+    width: 1050px;
+}
+
+
+.main_container
+{
+	width: 600px;
+	padding: 20px;
+
+	height: 300px;
+}
+
+.form_container
+{
+	width: 500px;
+	padding: 10px;
+	float: left;
+	border: 1px solid grey;
+}
+
+
+.input_fields
+{
+	margin: 10px;
+}
+
+.button
+{
+	margin: 20px;
+	float: right;
+}

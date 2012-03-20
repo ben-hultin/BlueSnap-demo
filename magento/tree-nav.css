@@ -1,0 +1,161 @@
+.tree_nav_container
+{
+	width: 250px;
+	position:fixed;
+	margin-right: 10px;
+	float: left;
+}
+
+a
+{
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.tree_group
+{
+	border-right: 1px solid rgb(99,100,102);
+	margin-top: 10px;
+	height: 625px;
+}
+
+.tree_parent
+{
+	height: 30px;
+	background-color: blue;
+	color: white;
+	border: 1px solid grey;
+	margin: 5px 0px;
+}
+
+.parent
+{
+	text-decoration: none;
+	color: rgb(75,99,174); /* Dark Blue */
+
+	font-weight: bold;
+}
+
+.child
+{
+	text-decoration: none;
+	color: rgb(99,100,102);
+	margin-left: 20px;
+
+}
+
+.parent:hover
+{
+	/*color: rgb(244,119,53);*/
+	color: rgb(34,188,185); /* Light Blue */
+}
+
+.child:hover
+{
+	color: rgb(244,119,53);
+}
+
+
+.tree_child
+{
+	height: 20px;
+	background-color: red;
+	color: white;
+	border: 1px solid grey;
+	margin: 5px 0px 5px 30px;
+}
+
+
+
+
+
+/**************** According *******************************************************/
+
+/* First Level UL List */
+#accordion {
+    margin:0;
+    padding:0;  
+    list-style:none;
+}
+     
+#accordion li {
+	width:267px;
+}
+ 
+#accordion li a {
+	display: block;
+	width: 268px;
+	height: 23px;   
+	outline:none;
+	padding-top: 10px;
+}
+	 
+/* Using CSS Sprite for menu item 
+#accordion li a.popular {
+	background:url(images/menu.jpg) no-repeat 0 0; 
+}
+
+#accordion li a.popular:hover, .popularOver {
+	background:url(images/menu.jpg) no-repeat -268px 0 !important; 
+}
+	 
+#accordion li a.category {
+	background:url(menu.jpg) no-repeat 0 -43px; 
+}
+
+#accordion li a.category:hover, .categoryOver {
+	background:url(menu.jpg) no-repeat -268px -43px !important; 
+}
+	 
+#accordion li a.comment {
+	background:url(menu.jpg) no-repeat 0 -86px; 
+}
+
+#accordion li a.comment:hover, .commentOver {
+	background:url(menu.jpg) no-repeat -268px -86px !important; 
+}
+*/	 
+	 
+/* Second Level UL List*/
+#accordion ul {
+	/*background:url(bg.gif) repeat-y 0 0;*/
+	width:268px;
+	margin:0;
+	padding:0;
+	display:none;   
+}
+	 
+	#accordion ul li {
+		height:30px;
+		display: block;
+	}
+		 
+	/* styling of submenu item */
+	#accordion ul li a {
+		/* color: rgb(99,100,102); /* Grey */
+		color: rgb(253, 187, 45); /* Yellow */
+		width:240px;
+		height:25px;
+		margin-left:15px;
+		padding-top:5px;
+		display: block;
+		text-indent:0;
+		
+		text-decoration:none;
+	}
+	
+
+	/*		color: rgb(34,188,185); /* Light Blue */
+
+	
+		#accordion ul li a:hover {
+			color: rgb(244,119,53); /* Orange */
+		}
+		
+
+		
+
+	/* remove border bottom of the last item */
+	#accordion ul li a.last {
+		border-bottom: none;
+	} 
